@@ -1,0 +1,21 @@
+{
+  "appTitle": "Taxi Chrono",
+  "@appTitle": {
+    "description": "Le nom de l'application"
+  },
+
+
+  "onboardingScreenPageOneTitleLabel": "Demande de Taxi",
+  "onboardingScreenPageOneDescriptionLabel": "Demander à être pris en charge par un\ntaxi proche de vous",
+  "onboardingScreenPageTwoTitleLabel": "Confirmez Votre Conducteur",
+  "onboardingScreenPageTwoDescriptionLabel": "Un vaste réseau de conducteurs vous aide à trouver\nun véhicule confortable, sûr et bon marché.",
+  "onboardingScreenPageThreeTitleLabel": "Suivez votre parcours",
+  "onboardingScreenPageThreeDescriptionLabel": "Connaître son chauffeur à l'avance et pouvoir\nvisualiser sa position en temps réel\nsur la carte",
+  "onboardingScreenPageGetStartedButtonLabel": "Commencez!"
+
+   "setupGpsLocationsScreenTitle": "Hi, nice to meet you",
+  "setupGpsLocationsScreenSubtitle": "Choose your location to start find restaurants around you",
+  "setupGpsLocationsScreenTextButton": "Use current location",
+  "setupGpsLocationsScreenSelectItManually": "Select it manually"
+
+}

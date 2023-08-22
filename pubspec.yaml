@@ -1,0 +1,75 @@
+name: taxichrono
+description: Taxi booking service
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  intl: any
+  # get fonts from google
+  google_fonts: ^4.0.3
+  # perfom logging
+  logger: ^1.1.0
+  # perform http requests
+  dio: ^5.1.1
+
+  firebase_core: ^2.10.0
+  freezed_annotation: ^2.1.0
+  another_flushbar: ^1.12.29
+  dartz: ^0.10.1
+  rxdart: ^0.27.7
+  # read & write into the phone directory
+  path_provider: ^2.0.14
+  path: ^1.8.2
+  # navigation & routing
+  auto_route: ^6.0.1
+  # The package contains functions that operate on lists
+  collection: ^1.17.0
+  # save data in secure way
+  flutter_secure_storage: ^8.0.0
+  # put image in the cache
+  cached_network_image: ^3.2.3
+  # animations
+  animations: ^2.0.7
+  flutter_animate: ^4.1.0
+  animate_to: ^0.1.0
+  # state managment
+  hooks_riverpod: ^2.3.6
+  # update the app on production
+  upgrader: ^6.5.0
+  #gps position tracking
+  geolocator: ^9.0.2
+  #permission handler
+  permission_handler: ^10.4.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: any
+  freezed: ^2.3.2
+  json_serializable: ^6.4.0
+  auto_route_generator: ^6.2.0
+  flutter_launcher_icons: ^0.13.1
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
